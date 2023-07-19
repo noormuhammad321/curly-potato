@@ -1,16 +1,15 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-
-odi_bat=pd.read_csv("D:\\pyfolder\\aiWithPython\\odi\\ODI data.csv")
-odi_bowl=pd.read_csv("D:\\pyfolder\\aiWithPython\\odi\\Bowling_ODI.csv")
-odi_field=pd.read_csv("D:\\pyfolder\\aiWithPython\\odi\\Fielding_ODI.csv")
-t20_bat=pd.read_csv("D:\\pyfolder\\aiWithPython\\t20\\t20.csv")
-t20_bowl=pd.read_csv("D:\\pyfolder\\aiWithPython\\t20\\Bowling_t20.csv")
-t20_field=pd.read_csv("D:\\pyfolder\\aiWithPython\\t20\\Fielding_t20.csv")
-test_bat=pd.read_csv("D:\\pyfolder\\aiWithPython\\test\\test.csv")
-test_bowl=pd.read_csv("D:\\pyfolder\\aiWithPython\\test\\Bowling_test.csv")
-test_field=pd.read_csv("D:\\pyfolder\\aiWithPython\\test\\Fielding_test.csv")
+odi_bat=pd.read_csv("/workspaces/curly-potato/odi/ODI data.csv")
+odi_bowl=pd.read_csv("/workspaces/curly-potato/odi/Bowling_ODI.csv")
+odi_field=pd.read_csv("odi/Fielding_ODI.csv")
+t20_bat=pd.read_csv("t20/t20.csv")
+t20_bowl=pd.read_csv("t20/Bowling_t20.csv")
+t20_field=pd.read_csv("Dt20/Bowling_t20.csv")
+test_bat=pd.read_csv("t20/Bowling_t20.csv")
+test_bowl=pd.read_csv("t20/Bowling_t20.csv")
+test_field=pd.read_csv("t20/Bowling_t20.csv")
 odi_bat=odi_bat.iloc[:,1:]
 odi_bowl=odi_bowl.iloc[:,1:]
 odi_field=odi_field.iloc[:,1:]
